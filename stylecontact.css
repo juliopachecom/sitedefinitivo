@@ -1,0 +1,231 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#cuerpo{
+    background-image: radial-gradient( circle 767px at 10.2% 22.1%,  rgb(222, 234, 120) 0%, rgb(127, 191, 213) 90% );
+    width: 100%;
+    height: 500px;
+    font-size: 20px;
+    display: flex;
+    color: rgb(35, 35, 35);
+    align-items: center;
+}
+
+
+#imagen{
+margin:auto;
+}
+.xd{
+    
+        width: 100%;
+    
+}
+
+.form-body {
+    margin: auto;
+    max-width: 400px;
+    width: 90%;
+    height: 330px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: solid 5px #7d94fa;
+    
+    background-image: radial-gradient( circle 767px at 10.2% 22.1%,  rgb(127,191,213) 0%, rgb(222, 234, 120) 90% );
+border-radius: 12px;
+padding-top: 10px;
+
+
+}
+
+.form-body input {
+    margin-top: 20px;
+    display: flex;
+    height: 40px;
+    width: 50%;
+    margin: auto;
+    padding-left: 10px;
+    color: rgb(28, 27, 27);
+    border: 1px solid black;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(145, 138, 138);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+}
+
+
+
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 2%;
+    display: center;
+}
+
+.logo1{
+    width: 75px;
+    height: 75px;
+    justify-content: right;
+}
+
+nav{
+text-decoration: none;
+background-color: white;
+display: flex;
+justify-content: space-between;
+padding: 0 15%;
+height: 75px;
+line-height: 75px;    
+
+}
+nav .navbar-br{
+font-weight: 500;
+    font-size: 28px;
+letter-spacing: .5px;
+}
+
+nav .nav-list{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    color: black;
+}
+
+nav .nav-list .nav-items{
+    text-decoration: none;
+    cursor: pointer;
+    height: 100%;
+    padding: 0 30px;
+    transition: .4s;
+}
+
+nav .nav-list .nav-link:hover{
+    background-color: #55b1b6;
+}
+
+nav .nav-list .nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+::placeholder {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, .596);
+}
+
+.form-body input:hover {
+    transition: .1s;
+    border: 3px solid #8b95ed;
+    color: #241f23;
+}
+.form-body button {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 35%;
+    background: #f8fa7d;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid aliceblue;
+    transition:  all .4s ease;
+    text-decoration: none;
+    
+}   
+
+.form-body button:hover {
+    color: black;
+    border: solid 5px rgb(220, 234, 30);
+    background: #6ea4e7;
+}
+
+
+.form-body a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media(max-width:765px){
+
+    header .logo1{
+        justify-content: center;
+    }
+    nav {
+        width: 100%;
+        height: 100px;
+        background-color: #fff;
+        transition: all 0.5s;
+        display: table;
+    }
+    
+    nav ul{
+        padding: 0px;
+        margin: 0px;
+        flex-direction: column;
+        background-color: #fff;
+    }
+    
+    nav ul li{
+        border-top: 1px solid #fff;
+        width: 100%;
+        list-style: none;
+    }
+    
+    }
+    
+    @media(max-width:300px){
+    
+        header .logo1{
+            justify-content: center;
+        }
+        nav {
+            width: 100%;
+            height: 100px;
+            background-color: #fff;
+            transition: all 0.5s;
+            display: table;
+        }
+        
+        nav ul{
+            padding: 0px;
+            margin: 0px;
+            flex-direction: column;
+            background-color: #fff;
+        }
+        
+        nav ul li{
+            border-top: 1px solid #fff;
+            width: 100%;
+            list-style: none;
+        }
+        img{
+            width: 0px;
+            height: 0px;
+        }
+        }
+
+@media(max-width:720px) {
+            .xd{
+                width: 0px;
+                height: 0px;
+            }
+
+        }
+
+        
